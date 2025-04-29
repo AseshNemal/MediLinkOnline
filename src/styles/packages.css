@@ -1,0 +1,163 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 200vh;
+    padding-bottom: 80px;
+    background-color: rgb(96, 221, 140);
+    opacity: 100%;
+}
+
+.add_packages,
+.edit_package {
+    max-width: 600px;
+    background-color: rgb(85, 82, 155);
+    border-radius: 8px;
+    padding: 32px;
+    margin: 0 auto;
+    margin-top: 32px;
+    
+  }
+
+  .submit_btn {
+    display: block;
+    width: auto;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    color: rgb(210, 195, 196);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 24px 0 32px;
+    color: rgb(0, 0, 0);
+  }
+
+  .add_packages .input_fields,
+  .edit_package .input_fields {
+    padding: 16px 20px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 20px 0;
+    width: 90%;
+  }
+
+  .add_packages .text_area {
+    padding: 16px 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 20px 0;
+    max-width: 90%;
+    min-width: 90%;
+  }
+
+  ::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+/* view packages */
+  
+  .display_packages table{
+    width: 100%;
+    text-align: center;
+  }
+
+  .display_packages table thead th {
+    padding: 16px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(68, 101, 141);
+    color: rgb(0, 0, 0);
+  }
+
+  td {
+    padding: 16px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0 , 0);
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  /*edit php*/
+
+  .package_container_box {
+    text-align: center;
+    height: 70%;
+  }
+  
+  .cancel_btn {
+    display: block;
+    width: auto;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color: rgb(210, 195, 196);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .edit_btn {
+    display: block;
+    width: auto;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    color: rgb(210, 195, 196);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+/* all Packages*/
+
+  .package_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 480px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .package_container .edit_form {
+    text-align: center;
+    padding: 20px;
+    box-shadow: black;
+    border: rgb(0, 0 , 0);
+    border-radius: 8px;
+    background-color: rgb(67, 186, 213);
+    box-shadow: 2px 5px 14px #888888;
+  }
+
+  .packages .edit_form .price {
+    font-size: 20px;
+    color: black;
+    margin: 16px 0;
+    font-weight: bold;
+  }
+

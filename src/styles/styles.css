@@ -1,0 +1,214 @@
+/*header*/
+#naviUL{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightblue;
+}
+
+.naviLI{
+	float: left;
+}
+
+
+li a{
+	display: inline-block;
+	color: green;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: red;
+}
+
+.logo{
+	height: 100px;
+	alt: logo;
+	display: block;
+	margin-left: auto;
+	margin-right: auto ;
+}
+
+#banner1{
+	width: 100%;
+	alt: banner;
+	display: block;
+	margin-left: auto;
+	margin-right: auto ;
+
+}
+/*header*/
+
+
+
+
+
+
+/*body*/
+
+.banner{
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+.bannerText{
+	position: absolute;
+	top: 8px;
+	left:16px;
+	text-align: left;
+	font-size: 15px;
+}
+
+.servies{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    
+}
+
+.servieslist{
+	width: 500px;
+	background-color: lightblue;
+	overflow: hidden;
+	margin: 20px 20px 20px 0;
+}
+
+.serviesimg{
+	height: 50px;
+}
+
+.specializes{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+
+
+}
+
+.specializeslist{
+	width: 400px;
+	height: 150px;
+	background-color: lightgray;
+	overflow: hidden;
+	margin: 20px 20px 20px 0;
+
+}
+
+#opd{
+	color: green;
+	margin: 0px 15% 0px 15%;
+}
+
+.department{
+	display: flex;
+}
+
+.departmentB{
+	width: 70%;
+	height: 60px;
+	border-radius: 20px;
+	background-color: lightblue;
+	font-size: 15px;
+}
+
+.departmentList{
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body*/
+
+
+
+
+
+
+
+/*footer*/
+
+.footer{
+	height: 250px;
+	position: relative;
+	background-color: lightgray;
+}
+
+.fb{
+	position: absolute;
+	left: 20%;
+	top: 30px;
+}
+
+.linkedin{
+	position: absolute;
+	left:25%;
+	top: 30px;
+}
+
+.whatsapp{
+	position: absolute;
+	left:30%;
+	top: 30px;
+}
+
+.sms{
+	position: absolute;
+	left:35%;
+	top: 30px;
+}
+
+.socialm{
+	height: 30px;
+	alt: logo;
+	display: block;
+	margin-left: auto;
+	margin-right: auto ;
+}
+
+
+.qLink{
+	position: absolute;
+	left:50%;
+	top: 10px;
+}
+
+.subscribe{
+	position: absolute;
+	left: 70%;
+	top: 30px;
+}
+
+.support{
+	position:absolute;
+	left: 70%;
+	top: 50px;
+}
+
+.flogo{
+	position: absolute;
+	left: 5%;
+	font-size: 9px;
+}
+

@@ -1,0 +1,85 @@
+body
+{
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container
+{
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.map-img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 1rem;
+}
+
+
+  
+ 
+  .col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  
+  
+  .col-12 {
+    flex: 0 0 auto;
+    width: 100%
+  }
+
+  .row-cols-1{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+  }

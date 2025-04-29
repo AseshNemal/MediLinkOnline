@@ -1,0 +1,22 @@
+fieldset{
+	margin: auto;
+	background-color: lightblue;
+	width: 60%;
+	max-width: 560px;
+	border-radius: 30px;
+	height: auto;
+	position: relative;
+	
+	
+}
+
+#oPayment{
+	display: flex;
+}
+
+#p1,#p2{
+	width: 50%;
+
+}
+
+

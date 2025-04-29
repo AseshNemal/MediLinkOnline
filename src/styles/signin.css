@@ -1,0 +1,16 @@
+#stButton{
+    background-color: lightblue;
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+}
+
+.inputs{
+    
+    right: 20%;
+
+}
+
+font{
+  min-width: 500px;
+}

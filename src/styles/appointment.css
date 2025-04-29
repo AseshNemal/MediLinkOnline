@@ -1,0 +1,31 @@
+.appointment{
+	
+	padding: 50px;
+	top: 1000px;
+	white-space: 50px;
+
+}
+
+fieldset{
+	margin: auto;
+	background-color: lightblue;
+	width: 50%;
+	max-width: 560px;
+	border-radius: 50px;
+}
+
+#searchDoctor{
+	align-items: center;
+}
+
+#docSpecializan{
+	visibility: hidden;
+}
+
+.doclist{
+	a
+}
+
+.para{
+	color: red;
+}

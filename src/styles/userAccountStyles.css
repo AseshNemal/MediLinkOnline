@@ -1,0 +1,45 @@
+
+.profilepic{
+	width: 200px;
+}
+
+#userDetails{
+	border-style: solid;
+	margin: 30px;
+	display: flex;
+
+}
+
+.details{
+	width: 400px;
+		}
+
+.medicalHistory{
+	border-style: dashed;
+	display: flex;
+	margin: 20px;
+
+}
+
+.medicalDetails{
+	width: 500px;
+	padding: 40px;
+	padding-right: 70px;
+
+}
+
+.tests{
+
+}	
+
+#edit{
+	border-radius: 10px;
+	margin-left: 36%;
+	margin-bottom: 5px;
+}
+
+.logout{
+	margin-top: 55px;
+
+}
+

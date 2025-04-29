@@ -1,0 +1,15 @@
+fieldset{
+	background-color: lightblue;
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 30px;
+	border: 1px solid darkblue;
+}
+
+legend{
+	font-size: 25px;
+}
+
+input{
+	background-color: lightgray;
+}

@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+    background-image: url("bgpic.jpg"); /* Replace "path/to/your/image.jpg" with the path to your image file */
+    background-size: cover; /* This ensures the background image covers the entire body */
+    background-position: center; /* This centers the background image */
+    background-repeat: no-repeat; /* This prevents the background image from repeating */
+  }
+
+  .container
+{
+    width: 100%;
+    padding: 7rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.flex-align 
+{
+  display: flex;
+}
+
+.align-vertical
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.align-horizontal
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+  
+  .about-us{
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-us__heading{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us__text{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 0;
+    inline-size: 75%;
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+  .partners__text{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 0;
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+  
+  .box_text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+    text-align: left;
+  }
+  
+  .about-us__services{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-us__services li{
+    margin-bottom: 5px;
+  }
+  
+  .company-profile {
+    padding: 50px 0;
+    background-color: #e0e0e0;
+  }
+  
+  .company-profile __heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .company-profile__text{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  .box{
+  
+    width: 50%;
+    padding: 1.5rem;
+    background-color: #FFF;
+    border: 2px solid #000;
+    border-radius: 12px;
+  }
+  .img{
+    width: 85%;
+    display: block;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+  .merge {
+    display: flex;
+  }
+  #para{
+    display: flex;
+  }
+
+  #about-us__services{
+    margin-left: 0;
+  }
+
+  #as{
+    display: block;
+  }
+
+  .about-us__text11{
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .hospital-partners {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hospital-partners h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hospital-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hospital-list li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+
+
+  
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  
+  
+ 
+  
+  .col-12 {
+    flex: 0 0 auto;
+    width: 100%
+  }
+
+  .row-cols-1{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
